@@ -60,5 +60,5 @@ purposes.
    ```git clone <https://github.com/iftikhar1995/Machine-Learning.git>```
 
 2. Install the dependencies mentioned in the **requirements.txt** file. Following is the command to install the 
-dependencies:
-   ```pip install -r requirements.txt ```
+dependencies:\
+```pip install -r requirements.txt ```
