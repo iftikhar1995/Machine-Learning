@@ -25,26 +25,27 @@ Following are the tools and technologies used in the project:
         |   |- data_preprocessing.py
         |
         |- DataSets
+        |   |
         |   |- DataPreprocessing
-        |   |       |- Data File
-        |   |- {Model Type 1}
-        |   |       |- Data File
-        |   |       .
-        |   |       .
-        |   |       .
-        |   |- {Model Type N}
-        |   |       | - Data File   
+        |   |       |- Data.csv
+        |   |- MultipleLinearRegression
+        |   |       |- 50_Startups.csv
+        |   |- PolynomialRegression
+        |   |       |- Position_Salaries.csv
+        |   |- SimpleLinearRegression
+        |   |       | - height_and_weight_data.csv
         |   |
         |
         |- Regression
         |   |
-        |   | - {Type 1}
-        |   |       |- Implementation of Model
-        |   |       .
-        |   |       .
-        |   |       .
-        |   | - {Type N} 
-        |   |       |- Implementation of Model
+        |   | - EffectiveModels
+        |   |       |- backward_elimination.py
+        |   | - MultipleLinearRegression
+        |   |       |- multiple_linear_regression.py
+        |   | - PolynomialRegression
+        |   |       |- polynomial_regression.py
+        |   | - SimpleLinearRegression
+        |   |       |- simple_linear_regression.py
         |   |
         |
         |- .gitignore
