@@ -38,6 +38,13 @@ Following are the tools and technologies used in the project:
         |
         |- Regression
         |   |
+        |   | - Deployment
+        |   |       |- __init__.py
+        |   |       |- app.py
+        |   |       |- Dockerfile
+        |   |       |- height_and_weight_data.csv
+        |   |       |- requirements.txt
+        |   
         |   | - EffectiveModels
         |   |       |- backward_elimination.py
         |   | - MultipleLinearRegression
